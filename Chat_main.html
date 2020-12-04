@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title> Let's Chat! </title>
+
+        <link rel="stylesheet" href = "Chat_main.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
+ <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <button class="glyphicon glyphicon-log-out btn btn-danger" onclick="Logout()" id="logout"> Logout </button>
+        <center>
+         <h1 class="header" id="h1"> Let's Chat!  </h1> &nbsp;&nbsp;&nbsp;&nbsp;
+         <span>
+         <sup>
+         <img src="m2.png" id="chat"> 
+         </sup>
+         </span>
+         <br><br>
+         <img src="#" id="dp"> 
+         <span>
+    <h3 style = "color: black; font-family: 'Sansita Swashed', cursive; font-size: 30px;" id="name"></h3>
+    </span>
+    <br>
+    <h4 id="h4" style="color: purple; font-family:fantasy; font-weight: bold; font-size: 20px;"><u> Add Room : </u></h4>
+    <input type="text" placeholder="Add Room-Name" id="Room_name" style="width:250px; height: 30px;">
+    <br><br>
+    <button onclick="AddRoom()" id= "add_room" class = "btn btn-warning"> #Add Room </button>
+    <br><br>
+    <h3 style=" font-family: Monospace; color: rgb(0, 86, 245)"> #TRENDING ROOMS!  </h3>
+    <div id="output"></div>
+        </center>
+    </body>
+    <script src = "Chat_main.js"></script>
+</html>

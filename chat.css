@@ -1,0 +1,111 @@
+
+body{
+    text-align:center;
+    background-color: skyblue !important;
+    background-image: url("bg.jpeg");
+    background-repeat: repeat;
+    background-size: contain;
+    padding-top:20px !important;
+  }
+.img{
+   color: rgb(0, 183, 255);
+   width: 65px;
+   height: 50px;
+   padding-top: 5px;
+border-top: ridge 3.5px #00FF00;
+border-right: ridge 3.5px #00FF00;
+border-left: ridge 3.5px #00FF00;
+  }
+  .input-container {
+    display: flex;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .icon {
+      margin-left:100px;
+    padding:5px;
+  background:lightseagreen;
+    color: white;
+    min-width:50px;
+    text-align: center;
+    
+  }
+ 
+  .input-field {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+  }
+  
+#mycolor img{
+    border: 4px groove black;
+    width:200px;
+    height:200px;  
+        
+}
+      
+  .image-section{  
+    display: flex;
+    justify-content:center;
+    width:100%;
+ 
+    
+  }
+  #a1{
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 550px;
+    height: 650px;
+  }
+  
+#mycolor{
+    background: linear-gradient(to right, rgb(233, 113, 223), rgb(111, 111, 219),  rgb(64, 22, 119)); 
+    width:550px;
+    margin-left:100px; 
+}
+span{
+    display: inline-block;
+}
+
+
+#style1{
+    font-family: 'Xanh Mono', monospace; 
+    font-size: 20px!important;
+    font-weight: bold;
+    background-color: rgb(233, 138, 153);
+     padding: 5px;
+     width: 150px !important;
+     color: black;
+}
+
+#AddUser{
+    background: linear-gradient(to right, rgb(0, 247, 41), rgb(33, 102, 16));
+    font-family: 'Big Shoulders Stencil Text', cursive; 
+    color:black; 
+    font-size:20px;
+    width:120px;
+    height:40px;  
+    bottom: 10px;
+}
+#btn{
+    height: 50px;
+    width:180px;
+    border-width:5px;
+    border-style:inset;
+    border-color: rgb(252, 61, 252);
+    font-size:20px;
+    color: white;
+    vertical-align: middle;
+    background-color:rgb(109, 12, 109);
+    font-family : Comic Sans MS;
+}
+
+#style1{
+    width:90px;
+    font-size:30px;
+}
+
+
+
+

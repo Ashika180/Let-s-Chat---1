@@ -1,0 +1,41 @@
+#logout{
+    color:black;
+    width: 200px;
+    height: 60px;
+    margin-top: 5px;
+    float: right;
+    font-size: 30px;
+    margin-right: 25px;
+   
+}
+#chat{
+    width: 100px;
+    height: 100px;
+    margin-top: -80px;
+    margin-left: 15%;
+}
+#h1{
+    padding-top: 100px;
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: 40px;
+}
+body{
+    background-image: linear-gradient(to top left, #FFDDE2FF, #FAA094FF, #9ED9CCFF, #008C76FF);
+}
+#dp{
+    width: 300px;
+    height: 200px;  
+    border-style: ridge;
+    border-width: 3px;
+    border-radius: 60px;
+    border-color: brown;
+}
+#output
+{
+    padding: 10px;
+    margin-bottom: 20px;
+     width:80%;
+     background: rgba(85, 219, 243, 0.8);
+     border-radius: 15px;
+}

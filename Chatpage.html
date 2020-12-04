@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Let's Chat!</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Chatpage.css">
+<script src="Chatpage.js"></script>
+    </head>
+
+    <body>
+        <button class="glyphicon glyphicon-log-out btn btn-danger" onclick="Logout()" id="logout"> Logout </button>
+        <center>
+         <h1 class="header" id="h1"> Let's Chat!  </h1> &nbsp;&nbsp;&nbsp;&nbsp;
+         <span>
+         <sup>
+         <img src="m2.png" id="chat"> 
+         </sup>
+         </span>
+         <br><br>
+
+    <div style = "text-align: left;" id="output"></div>
+    <div id="main">
+        <h4> Send Message: </h4>
+        <input type="text" style="padding-bottom: 20px;" class="form-control" id="msg" placeholder="Send Message">
+        <br>
+        <span id="sent">
+            <i id="visible" class="fas fa-comment-dots"></i>
+        </span>
+        <br>
+        <button style="width: 100px; padding-bottom: 30px; height: 40px; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 25px;" onclick="Send()" class="btn btn-info"> Send </button>
+    </div>
+        </center>
+    </body>
+        </body>
+
+        </html>
